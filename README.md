@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=RefFreeEWAS
 
 Package license: GPL-2.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-reffreeewas-feedstock/blob/master/LICENSE.txt)
 
 Summary: Reference-free method for conducting EWAS while deconvoluting DNA methylation arising as mixtures of cell types.  The older method (Houseman et al., 2014,<doi:10.1093/bioinformatics/btu029>) is similar to surrogate variable analysis (SVA and ISVA), except that it makes additional use of a biological mixture assumption. The newer method (Houseman et al., 2016, <doi:10.1186/s12859-016-1140-4>) is similar to non-negative matrix factorization, with additional constraints and additional utilities.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-reffreeewas` from the `conda-forge` channel can be achieved by add
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-reffreeewas` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
