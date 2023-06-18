@@ -1,11 +1,11 @@
-About r-reffreeewas
-===================
+About r-reffreeewas-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-reffreeewas-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=RefFreeEWAS
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-reffreeewas-feedstock/blob/main/LICENSE.txt)
 
 Summary: Reference-free method for conducting EWAS while deconvoluting DNA methylation arising as mixtures of cell types.  The older method (Houseman et al., 2014,<doi:10.1093/bioinformatics/btu029>) is similar to surrogate variable analysis (SVA and ISVA), except that it makes additional use of a biological mixture assumption. The newer method (Houseman et al., 2016, <doi:10.1186/s12859-016-1140-4>) is similar to non-negative matrix factorization, with additional constraints and additional utilities.
 
